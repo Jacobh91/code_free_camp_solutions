@@ -1,0 +1,14 @@
+function repeat(str, num) {
+  newString = String(str);
+  textBlock = []
+  if(num < 0){
+    return ''}else{
+  for(i=0; i<num; i++){
+    textBlock.push(newString);
+  };
+  };
+  return textBlock.join('');
+};
+
+repeat("abc", 3);
+
